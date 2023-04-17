@@ -18,32 +18,31 @@ social:
   facebook: /
   linkedin:
   instagram: /
-  github: haojen
+  github: Nulllance
 
 user:
-  name: Haojen
-  avatar:
-  location: In the dust
-  description: May the Force be with you
-  footnotes: # footnotes
+  name: Lance Wu
+  avatar: /images/avatar.jpg
+  location: Christchurch, New Zealand
+  description:
+  footnotes:
 
 # documents: https://github.com/utterance/utterances
 # API config: https://utteranc.es/
 comment_utteranc:
   enable: true
-  repo: Haojen/Claudia-theme-blog # your blog repo
-
+  repo: Nulllance/Nulllance.github.io # your blog repo
 
 # documents: https://valine.js.org/quickstart.html
 comment_valine:
-  enable: false
+  enable: true
   appId:
   appKey:
 
 comment_disqus:
-    enable: false
-    url:  # the url of your website main domain like this https://xxx.xxx/
-    name: # the short name in disqus
+  enable: false
+  url: # the url of your website main domain like this https://xxx.xxx/
+  name: # the short name in disqus
 
 # dark
 # light
@@ -51,7 +50,7 @@ comment_disqus:
 appearance: auto # Default value is auto
 
 # Miscellaneous
-favicon: images/favicon.ico
+favicon: images/blog.ico
 
 friend_links:
   - title: Google
