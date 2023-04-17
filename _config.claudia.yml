@@ -1,0 +1,39 @@
+user:
+  name:
+  avatar: /images/avatar.jpg
+  location:
+  description:
+  footnotes:
+
+# config you SNS
+social:
+  zhihu:
+  twitter:
+  facebook:
+  linkedin:
+  instagram:
+  github: Nulllance
+
+# Page icon
+favicon: images/blog.ico
+
+friend_links:
+  - title: Link1
+    link: https://www.link1.test.com/
+  # main menu navigation
+menu:
+  Home: /
+  About: /about
+  Archives: /archives
+
+widgets:
+  - tag
+  - archive
+  - category
+  - recent_posts
+comment_valine:
+  enable: true
+  appId:
+  appKey:
+highlight:
+  enable: true
