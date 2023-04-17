@@ -1,0 +1,62 @@
+<!DOCTYPE html><html class="appearance-auto" lang="zh-CN"><head><meta charset="UTF-8"><title>Haojen's blog</title><meta name="description" content="Hexo Learning "><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><!-- Google Analytics --><!-- End Google Analytics -->
+<!-- Baidu Analytics --><!-- End Baidu Analytics --><link rel="icon" href="/images/favicon.ico"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/widget-post-list.css"><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="LanceWu's Blog" type="application/atom+xml">
+</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">Haojen's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><span>归档 · 2023</span></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">首页</a></h3><h3 class="is-inline-block"><a href="/about">关于</a></h3><h3 class="is-inline-block"><a href="/archives">归档</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">首页</a></h3><h3 class="is-inline-block"><a href="/about">关于</a></h3><h3 class="is-inline-block"><a href="/archives">归档</a></h3></header><main><article class="post-container is-flex is-justify-content-center section container is-max-widescreen pt-4 px-2"><div class="columns is-variable is-1-tablet is-3-desktop-only is-2-widescreen is-full-width"><section class="column"><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://github.com/Nulllance/PicturePlace/blob/main/hexo/image.png?raw=true" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/2023/04/15/hexo/deploy/"><img class="post-cover-img js-img-fadeIn" src="https://github.com/Nulllance/PicturePlace/blob/main/hexo/image.png?raw=true" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><header><a href="/tags/hexo"><i class="tag post-item-tag">hexo</i></a><a href="/tags/deploy"><i class="tag post-item-tag">deploy</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/2023/04/15/hexo/deploy/">Deploy</a></h2><time class="has-text-grey" datetime="2023-04-15T20:43:00.000Z">2023-04-15</time><p class="is-flex-grow-2 mt-2">Deploy (部署)
+
+部署是将网站发布到服务器上的过程，这里使用的是 Github Pages 作为服务器。
+
+官方文档有详细介绍，这里不再赘述，只是补充一下官方文档中没有提到的一些问题。
+如果你之前没有在 github 上面部署过项目，那么下面是一些你需要注意的点。
+github 上传文件推荐先在 GitHub 上面创建一个仓库，然后将仓库克隆到本地，然后在文件夹中将 hexo 生成的所有文件放入其中，然后将文件夹上传到 GitHub 上面。
+$ git add .
+$ git commit -m &amp;quot;first commit&amp;quot;
+$ git push
+
+github pages.ymlpages.yml 文件是用来配置 github pages 的，简单来说这个是用来自动化部署的，当..</p><a class="button is-default mt-2 has-text-weight-semibold" href="/2023/04/15/hexo/deploy/">更多</a></section></article><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://github.com/Nulllance/PicturePlace/blob/main/hexo/1892.jpeg?raw=true" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/2023/04/15/hexo/quick_start/"><img class="post-cover-img js-img-fadeIn" src="https://github.com/Nulllance/PicturePlace/blob/main/hexo/1892.jpeg?raw=true" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><header><a href="/tags/hexo"><i class="tag post-item-tag">hexo</i></a><a href="/tags/quick%20start"><i class="tag post-item-tag">quick start</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/2023/04/15/hexo/quick_start/">Hexo quick start</a></h2><time class="has-text-grey" datetime="2023-04-15T20:43:00.000Z">2023-04-15</time><p class="is-flex-grow-2 mt-2">Hexo 快速启动
+介绍​ Hexo 是一个快速生成个人博客网页的模板工具生成器，通过对 Hexo 的简单使用，我们可以将 markdown 格式的文件生成博客网页。和其他的生成工具不同，例如：sphinx， Hexo 生态更为完善，结构设计更为合理，支持多语言的学习，官网内容更容易看懂。为了能暂时跳过教程，快速生成网页（其实看官网只需要花 3 小时，但是有很多功能暂时不需要用到），接下来，我将通过更加直观详细而非官方的教学步骤进行记录。让初学者都能快速建立自己的第一个博客网页。如果需要深入学习可以结合我的教程看官方文件。
+超快配置​ Hexo 通过命令可以超快生成一个默认的博客框架，在安装好 nodejs 和 git 工具后，你可以直接通过下面指令快速生成。
+​ nodejs 安装教程  git 安装教程..</p><a class="button is-default mt-2 has-text-weight-semibold" href="/2023/04/15/hexo/quick_start/">更多</a></section></article><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://github.com/Nulllance/PicturePlace/blob/main/pug/intro_image.png?raw=true" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/2023/04/15/pug/intro/"><img class="post-cover-img js-img-fadeIn" src="https://github.com/Nulllance/PicturePlace/blob/main/pug/intro_image.png?raw=true" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><header><a href="/tags/pug"><i class="tag post-item-tag">pug</i></a><a href="/tags/introduciton"><i class="tag post-item-tag">introduciton</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/2023/04/15/pug/intro/">Pug Introduction (介绍)</a></h2><time class="has-text-grey" datetime="2023-04-15T20:43:00.000Z">2023-04-15</time><p class="is-flex-grow-2 mt-2">Pug Introduction (介绍)
+
+pug 是可以通过预设好的 .pug 模板文件进行批量生成 html 文件的工具。该工具可以将提供的数据传入 .pug 模板文件，并进行渲染形成 html 文件。
+
+</p><a class="button is-default mt-2 has-text-weight-semibold" href="/2023/04/15/pug/intro/">更多</a></section></article><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://github.com/Nulllance/PicturePlace/blob/main/hexo/image-20230415150730261.png?raw=true" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/2023/04/15/hexo/Problems/"><img class="post-cover-img js-img-fadeIn" src="https://github.com/Nulllance/PicturePlace/blob/main/hexo/image-20230415150730261.png?raw=true" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><header><a href="/tags/hexo"><i class="tag post-item-tag">hexo</i></a><a href="/tags/problem"><i class="tag post-item-tag">problem</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/2023/04/15/hexo/Problems/">Some Problems</a></h2><time class="has-text-grey" datetime="2023-04-15T15:07:00.000Z">2023-04-15</time><p class="is-flex-grow-2 mt-2">问题Claudia 主题下，代码没有高亮问题
+
+这个问题在官网是有答案的，下图为快速操作，直接在_config.yml 文件中修改以下代码即可
+
+# _config.yml
+highlight:
+  enable: false
+prismjs:
+  enable: false
+
+还没解决的问题1. 标题名字在哪里更改的问题</p><a class="button is-default mt-2 has-text-weight-semibold" href="/2023/04/15/hexo/Problems/">更多</a></section></article><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://github.com/Nulllance/PicturePlace/blob/main/hexo/5941.jpeg?raw=true" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/2023/04/15/hexo/configuration/"><img class="post-cover-img js-img-fadeIn" src="https://github.com/Nulllance/PicturePlace/blob/main/hexo/5941.jpeg?raw=true" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><header><a href="/tags/hexo"><i class="tag post-item-tag">hexo</i></a><a href="/tags/configuration"><i class="tag post-item-tag">configuration</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/2023/04/15/hexo/configuration/">Configuration</a></h2><time class="has-text-grey" datetime="2023-04-15T15:07:00.000Z">2023-04-15</time><p class="is-flex-grow-2 mt-2">配置（客制化）Customize
+​ 配置一些文件，将文件放置在合适的地方，加上几个命令即可完成对网站的建立。
+前置知识​ 在配置之前需要对 markdown 格式和 yaml 格式有所了解，这两个都相对容易，就不多介绍。
+*.md 文件的一点小改动(Front-matter)​ 在每个 md 文章的最上面应该添加以下的代码：
+---
+# 该文件的标题
+title: Configuration
+# 这篇文章的作者
+author: lanceWu
+# 分类类别
+categories:
+    - hexo
+# 标签
+tag:
+    - hexo
+---
+
+如果文章有公式，需要下载 hexo-filter-mathjax 插件，并引用它
+hexo-filter-mathjax github 地址
+$ npm ..</p><a class="button is-default mt-2 has-text-weight-semibold" href="/2023/04/15/hexo/configuration/">更多</a></section></article></section><aside class="column is-hidden-mobile is-4-tablet is-3-widescreen"><div style="position: sticky; top: 50px;"><main class="aside-card-container archives-widget is-in-archive-page"><h3>归档</h3><section><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/04/">四月 2023</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">五月 2020</a><span class="archive-list-count">1</span></li></ul></section></main></div></aside></div></article><script>$claudia.fadeInImage(null, $claudia.blurBackdropImg)
+
+window.addEventListener('resize', $claudia.throttle(function () {
+    var images = document.querySelectorAll('.js-img-fadeIn')
+
+    images.forEach($claudia.blurBackdropImg)
+}, 150))</script></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><a title="twitter" target="_blank" rel="noopener nofollow" href="//twitter.com//"><i class="iconfont icon-twitter"></i></a><!-- Github--><a title="github" target="_blank" rel="noopener nofollow" href="//github.com/haojen"><i class="iconfont icon-github"></i></a><!-- Ins--><a title="instagram" target="_blank" rel="noopener nofollow" href="//www.instagram.com//"><i class="iconfont icon-ins"></i></a><!-- RSS--><!-- 知乎--><!-- 领英--><!-- 脸书--><a title="facebook" target="_blank" rel="noopener nofollow" href="//www.facebook.com//"><i class="iconfont icon-tian7_facebook"></i></a></section><p><span>Copyright ©</span><span> Haojen 2023</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><p>Powered by Hexo &verbar;&nbsp;</p><p class="is-flex is-justify-content-center"><a title="Hexo theme author" target="_blank" rel="noopener" href="//github.com/haojen">Theme by Haojen&nbsp;</a></p><div style="margin-top: 2px"><a class="github-button" title="github-button" target="_blank" rel="noopener" href="https://github.com/haojen/hexo-theme-Claudia" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"></a></div></div><div><span></span></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script>$claudia.fadeInImage(null, $claudia.blurBackdropImg)
+
+window.addEventListener('resize', $claudia.throttle(function () {
+    var images = document.querySelectorAll('.js-img-fadeIn')
+
+    images.forEach($claudia.blurBackdropImg)
+}, 150))</script></body></html>
