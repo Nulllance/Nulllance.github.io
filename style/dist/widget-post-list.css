@@ -132,7 +132,7 @@
   border: 7px solid var(--avatar-border-color);
 }
 .post-container .profile-widget .avatar-placeholder:after {
-  content: "\e62a";
+  content: "";
   font-size: 80px;
   font-family: iconfont;
   position: absolute;
