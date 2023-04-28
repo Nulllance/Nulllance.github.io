@@ -33,7 +33,7 @@ $coverBlurEffect: 20px;
 
           object-fit: cover;
           transform: scale(1.2);
-          filter: blur($coverBlurEffect) ;
+          filter: blur($coverBlurEffect);
         }
       }
 
@@ -82,7 +82,7 @@ $coverBlurEffect: 20px;
   .archives-widget,
   .recent-widget,
   .friend-widget,
-  .tag-widget, {
+  .tag-widget {
     h3 {
       font-weight: bold;
       margin-bottom: 10px;
@@ -91,16 +91,20 @@ $coverBlurEffect: 20px;
     .category-list .category-list-item,
     .archive-list .archive-list-item {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
+      // align-items: center;
+      // justify-content: center;
 
       margin-bottom: 5px;
+      margin-right: 10px;
       color: var(--second-text-color);
-
+      .category-list-child {
+        margin-left: 20px;
+      }
       .category-list-count,
       .archive-list-count {
-        padding: 0 12px;
-        border-radius: 11px;
+        display: none;
+        padding: 0 6px;
+        border-radius: 6px;
         background: var(--third-bg-color);
       }
     }
@@ -114,7 +118,7 @@ $coverBlurEffect: 20px;
       object-fit: cover;
     }
 
-    .avatar{
+    .avatar {
       position: relative;
 
       width: $avatarSize;
@@ -150,13 +154,13 @@ $coverBlurEffect: 20px;
 
     // user describe quote style
     blockquote:before {
-      content: '“';
+      content: "“";
       margin-right: 5px;
       vertical-align: middle;
     }
 
     blockquote:after {
-      content: '”';
+      content: "”";
       margin-left: 5px;
       vertical-align: bottom;
     }
@@ -196,7 +200,8 @@ $coverBlurEffect: 20px;
         }
       }
     }
-    img, .post-img-placeholder {
+    img,
+    .post-img-placeholder {
       width: 50px;
       height: 50px;
       margin-right: 5px;
@@ -220,14 +225,14 @@ $coverBlurEffect: 20px;
   }
 
   .archives-widget {
-      > section {
-        overflow: auto;
-        max-height: 45vh;
-      }
+    > section {
+      overflow: auto;
+      max-height: 45vh;
+    }
 
-      &.is-in-archive-page > section {
-        max-height: 80vh;
-      }
+    &.is-in-archive-page > section {
+      max-height: 80vh;
+    }
   }
 
   .tag-widget {
@@ -263,7 +268,7 @@ $coverBlurEffect: 20px;
       background: var(--third-bg-color);
 
       &.current {
-        color: #fff!important;
+        color: #fff !important;
         background: $activeColor;
       }
     }
